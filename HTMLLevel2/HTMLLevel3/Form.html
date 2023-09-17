@@ -9,16 +9,31 @@
 
 <body>
     <form action="">
-        UserName
-        <input type="text"> <br>
-        Password
-        <input type="password"> <br>
-        Number
-        <input type="number"><br>
-        Time
-        <input type="time"><br>
-        Color
-        <input type="color"><br>
+        <!-- Basic Label Approch -->
+        <!-- <label>
+            Username
+            <input type="text" placeholder="Enter Name"> <br>
+        </label>
+        <label>
+            Password
+            <input type="password" placeholder="Enter Password"> <br>
+        </label> -->
+
+
+        <!-- Classical Approch -->
+        <div>
+            <label for="Username"> Username : </label>
+            <input type="text" id="Username" placeholder="Username">
+        </div>
+
+        <div>
+            <label for="Password"> Password : </label>
+            <input type="password" id="Password" placeholder="Password">
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" id="age" placeholder="age">
+        </div>
 
     </form>
 </body>
