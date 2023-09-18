@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/server">
+        <!-- Input Element Checkbox -->
+        <fieldset>
+            <legend>Input Element CheckBox</legend>
+            <input type="checkbox" name="age" id="age">
+            <label for="age"> I am 18+ </label>
+        </fieldset>
+        <br><br>
+
+        <!-- Input Element Radio -->
+        <fieldset>
+            <legend>Input Element Radio</legend>
+            <div>
+                <input type="radio" name="fruit" id="apple" value="apple">
+                <label for="apple">Apple</label>
+            </div>
+            <div>
+                <input type="radio" name="fruit" id="mango" value="mango">
+                <label for="mango">Mango</label>
+            </div>
+            <div>
+                <input type="radio" name="fruit" id="banana" value="banana">
+                <label for="banana">Banana</label>
+            </div>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Select Element</legend>
+            <select name="profession">
+                <option>Select Your Option</option>
+                <option value="student">Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </fieldset>
+
+        <br>
+        <Div>
+            <label for="volume">Select volume level</label>
+            <input type="range" min="0" max="100" name="volume" id="volume" step="10" value="70">
+        </Div>
+        <br>
+        <div>
+            <label for="feedback">Please provide your valuable feedback</label>
+            <textarea name="feedback" id="feedback" rows="4" placeholder="write your feedback"></textarea>
+        </div>
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
